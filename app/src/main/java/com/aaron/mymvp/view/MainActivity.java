@@ -14,6 +14,8 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity implements Contracts.IView {
 
+    private static final String TAG = "MainActivity";
+
     @BindView(R.id.text_view)
     TextView mTextView;
     private Contracts.IPresenter mPresenter;
